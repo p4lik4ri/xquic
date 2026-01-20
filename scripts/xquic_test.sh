@@ -84,7 +84,7 @@ elif [ -f "../third_party/boringssl/build/ssl/libssl.a" ]; then
     SSL_PATH_STR="$(cd ../third_party/boringssl && pwd)"
     echo "✓ Found BoringSSL at: $SSL_PATH_STR"
 # Check for BabaSSL
-elif [ -f "../third_party/babassl/libssl. a" ]; then
+elif [ -f "../third_party/babassl/libssl.a" ]; then
     SSL_TYPE_STR="babassl"
     SSL_PATH_STR="$(cd ../third_party/babassl && pwd)"
     echo "✓ Found BabaSSL at:  $SSL_PATH_STR"
